@@ -3,7 +3,6 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
-  margin-top: 700px;
   background-color: #e9e9e9;
   width: 600px;
   margin: auto;
@@ -19,7 +18,6 @@ body {
   flex-direction: row;
   background-color: #006a6a;
   justify-content: space-around; /* ADD espaços entre as divs que fazem parte do container centralizando-as */
-  padding: 20px;
 }
 .header-title {
   color: #006f6f;
@@ -27,9 +25,49 @@ body {
   font-weight: 700;
   margin-bottom: 20px;
 }
-.header-subtitle{
+.header-subtitle {
   color: #009e9e;
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 15px;
+}
+.col-1 {
+  background-color: #006a6a;
+  width: 50%;
+  padding: 20px;
+  color: #fff;
+}
+.col-2 {
+  background-color: #009e9e;
+  width: 50%;
+  padding: 20px;
+  color: #fff;
+}
+.subscription-title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.preco {
+  font-size: 26px;
+  font-weight: 700;
+}
+.por_mes {
+  font-size: 15px;
+  font-style: italic;
+  margin-left: 15px;
+}
+.button-assine {
+  background-color: #cccccc;
+  width: 100%;
+  padding: 15px 32px;
+  margin-top: 15px;
+  color: #006a6a;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.button-assine:hover{
+  background-color: #e9e9e9;
 }
