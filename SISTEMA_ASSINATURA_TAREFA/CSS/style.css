@@ -1,13 +1,18 @@
 body {
   background-color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
+  margin-top: 700px;
   background-color: #e9e9e9;
   width: 600px;
   margin: auto;
+  box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2); /* 1°desl x,2° desl y, 3° borramento, 4° raio*/
+  border-radius: 5px;
+  overflow: hidden;
 }
 .header {
-  padding: 20px;
+  padding: 40px;
 }
 .flex-container {
   display: flex;
@@ -15,4 +20,16 @@ body {
   background-color: #006a6a;
   justify-content: space-around; /* ADD espaços entre as divs que fazem parte do container centralizando-as */
   padding: 20px;
+}
+.header-title {
+  color: #006f6f;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.header-subtitle{
+  color: #009e9e;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
