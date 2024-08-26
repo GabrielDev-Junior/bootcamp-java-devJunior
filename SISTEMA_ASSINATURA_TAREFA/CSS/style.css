@@ -86,7 +86,7 @@ body {
   .col-1,
   .col-2 {
     width: 100%;
-    box-sizing: border-box;/* A largura do elemento incorpora a largura do padding e da borda fazendo com que os elementos acompanhe o loyaut.*/
+    box-sizing: border-box; /* A largura do elemento incorpora a largura do padding e da borda fazendo com que os elementos acompanhe o loyaut.*/
   }
   .container {
     width: 95%;
@@ -94,3 +94,4 @@ body {
   .button-assine {
   }
 }
+/* SALAVANDO ATIVIDADE PARA CONCLUIR A ETAPA DE TRAZER O CSS PARA AREA EXTERNA. */
