@@ -11,7 +11,7 @@ body {
   overflow: hidden;
 }
 .header {
-  padding: 40px;
+  padding: 2.5rem;
 }
 .flex-container {
   display: flex;
@@ -21,51 +21,51 @@ body {
 }
 .header-title {
   color: #006f6f;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 1.2rem;
 }
 .header-subtitle {
   color: #009e9e;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 0.93rem;
 }
 .col-1 {
   background-color: #006a6a;
   width: 50%;
-  padding: 20px;
+  padding: 1.2rem;
   color: #fff;
 }
 .col-2 {
   background-color: #009e9e;
   width: 50%;
-  padding: 10px;
+  padding: 0.62rem;
   color: #fff;
 }
 .subscription-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.2rem;
 }
 .preco {
-  font-size: 26px;
+  font-size: 1.62rem;
   font-weight: 700;
 }
 .por_mes {
-  font-size: 15px;
+  font-size: 0.93rem;
   font-style: italic;
-  margin-left: 15px;
+  margin-left: 0.9rem;
 }
 .button-assine {
   background-color: #cccccc;
   width: 100%;
-  padding: 15px 32px;
-  margin-top: 20px;
+  padding: 0.9rem 2rem;
+  margin-top: 1.2rem;
   color: #006a6a;
   border-radius: 8px;
   border: none;
-  margin-bottom: 15px;
+  margin-bottom: 0.9rem;
   cursor: pointer;
 }
 .button-assine:hover {
@@ -73,4 +73,24 @@ body {
 }
 .image-group {
   text-align: center;
+}
+@media screen and (max-width: 620px) {
+  /* Responsividade */
+  html {
+    font-size: 14px;
+  }
+  .flex-container {
+    /* mudando o para uma visao mobile */
+    flex-direction: column;
+  }
+  .col-1,
+  .col-2 {
+    width: 100%;
+    box-sizing: border-box;/* A largura do elemento incorpora a largura do padding e da borda fazendo com que os elementos acompanhe o loyaut.*/
+  }
+  .container {
+    width: 95%;
+  }
+  .button-assine {
+  }
 }
