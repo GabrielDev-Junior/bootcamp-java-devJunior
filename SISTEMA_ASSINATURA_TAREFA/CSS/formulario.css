@@ -10,14 +10,26 @@ body {
   border-radius: 5px;
   overflow: hidden;
 }
+input {
+  width: 95%;
+  height: 22px;
+  padding: 0.9rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 0;
+  margin: 10px;
+  box-sizing: border-box;
+}
+input:focus{
+  outline: none;
+  box-shadow: 0 0 10px #009e9e;
+}
+a{
+  color: #e9e9e9;
+  font-size: 0.8rem;
+}
 .header {
   padding: 2.5rem;
-}
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  background-color: #006a6a;
-  justify-content: space-around; /* ADD espaços entre as divs que fazem parte do container centralizando-as */
 }
 .header-title {
   color: #006f6f;
@@ -31,35 +43,17 @@ body {
   font-weight: 500;
   margin-bottom: 0.93rem;
 }
-.col-1 {
+.area-cadastro {
   background-color: #006a6a;
-  width: 50%;
   padding: 1.2rem;
-  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
 }
-.col-2 {
-  background-color: #009e9e;
-  width: 50%;
-  padding: 0.62rem;
-  color: #fff;
-}
-.subscription-title {
-  font-size: 1.25rem;
-  text-align: center;
-  margin-bottom: 1.2rem;
-}
-.preco {
-  font-size: 1.62rem;
-  font-weight: 700;
-}
-.por_mes {
-  font-size: 0.93rem;
-  font-style: italic;
-  margin-left: 0.9rem;
-}
-.button-assine {
+.button-cadastro {
   background-color: #cccccc;
-  width: 100%;
+  width: 60%;
   padding: 0.9rem 2rem;
   margin-top: 1.2rem;
   color: #006a6a;
@@ -74,6 +68,7 @@ body {
 .image-group {
   text-align: center;
 }
+
 @media screen and (max-width: 620px) {
   /* Responsividade */
   html {
@@ -91,8 +86,10 @@ body {
   .container {
     width: 95%;
   }
-  .header{
-    padding: 0.93rem;
+  .button-cadastro{
+    width: 95%;
+  }
+  .header {
+    padding: 0.9rem;
   }
 }
-/* SALAVANDO ATIVIDADE PARA CONCLUIR A ETAPA DE TRAZER O CSS PARA AREA EXTERNA. */
